@@ -1,0 +1,6 @@
+header {
+  user-select: none;
+  & a:first-child {
+    margin-right: auto;
+  }
+}
