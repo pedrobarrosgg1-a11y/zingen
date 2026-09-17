@@ -42,6 +42,19 @@
     );
   }
 
+  & li {
+    color: var(--text-color-secondary);
+    background: url(../assets/icons/Check.svg) no-repeat;
+    padding-left: 2rem;
+  }
+
+  & ul + small {
+    display: block;
+    margin-top: 1.5rem;
+    font-size: 0.875rem;
+    color: var(--text-color-secondary);
+  }
+
   @media (width >= 80em) {
     --fs-price: 2.5rem;
 
