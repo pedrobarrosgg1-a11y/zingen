@@ -41,6 +41,7 @@
 }
 
 html {
+  scroll-behavior: smooth;
   font-family: var(--ff-sans);
   font-weight: var(--fw-base);
   font-size: var(--fs-base);
